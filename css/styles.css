@@ -10,7 +10,7 @@
 
 .navbar-default {
     background-color:transparent;
-    corder:none;
+    border:none;
     border-color: #e7e7e7;
     position: absolute;
     z-index: 10;
