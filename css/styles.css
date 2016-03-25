@@ -16,7 +16,7 @@
     z-index: 10;
     width: 100%;
 }
-
+/*-----------------------CAROUSEL-------------------*/
 #first-slide img {
   max-width: 400px;
   padding-top: 138px;
@@ -42,4 +42,129 @@
   background-size: cover;
   min-height: 600px;
   background-position: center;
+}
+
+/*-----------END STORY SECTION----------------*/
+/*BEGIN STORY SECTION*/
+#story {
+  min-height: 500px;
+}
+
+#story .container {
+  padding: 100px;
+}
+#story .story-h1 {
+  font-family: "Lobster", cursive;
+  color: #f15a24;
+  font-size: 80px;
+  text-shadow: 2px 2px 5px #0a0a0a;
+}
+
+#story .one-man {
+  font-family:"Raleway;", san sarif;
+  font-weight: 700px;
+}
+
+#story .year {
+  font-family: "Playfair Display", serif;
+  color: rgba(149, 147, 147, 0.2);
+  font-size: 180px;
+  font-weight:700;
+  position: absolute;
+  z-index: -1;
+
+}
+/* END STORY SECTION*/
+
+/* START REV SECTION*/
+
+#review {
+background-image: url("../img/food_review.jpg");
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+min-height: 500px;
+}
+
+#review .review-text {
+  text-align: center;
+  background-color: rgba(0, 0, 0, .6);
+  margin-top: 145px;
+  padding: 25px;
+}
+
+.review-text h1 {
+  font-family: "Lobster", cursive;
+  color: #f15a24;
+  font-size: 80px;
+  text-shadow: 2px 2px 5px #0a0a0a;
+}
+
+.review-text p {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-size: 24px;
+}
+
+#menu {
+
+}
+
+#contact {
+
+}
+/*MENU SECTION*/
+#menu {
+  min-height: 500px;
+  background-image: url("../img/black_linen.png");
+  padding-bottom:75px;
+  font-family: "Raleway", sans-serif;
+
+}
+
+#menu .tab-pane {
+  background-color: #fff;
+  padding: 15px;
+}
+
+#menu .menu-h1 {
+  font-family: "Lobster", cursive;
+  color: #fff;
+  font-size: 80px;
+  text-align: center;
+  text-align: center;
+}
+
+.nav-tabs li a {
+  color:#f15a24;
+}
+
+#menu p.app-paragraph {
+  text-align: justify;
+}
+
+
+
+
+/*CONTACT SECTION*/
+#contact {
+
+  min-height: 500px;
+  background-color:#f15a24;
+}
+#contact h1 .contact-h1 {
+  font-size: 45px;
+  color:#fff;
+}
+
+#contact p.contact-p {
+  color:#fff;
+}
+
+address {
+  color:#fff;
+}
+
+h1 {
+  color: #fff;
 }

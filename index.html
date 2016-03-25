@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="css/styles.css">
 	<!-- GOOGLE FONTS-->
 	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700' rel='stylesheet' type='text/css'>
 	<!-- END GOOGLE FONTS-->
 </head>
@@ -27,13 +27,13 @@
 	    </div>
 
 	    <!-- Collect the nav links, forms, and other content for toggling -->
-	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	    <div class="collapse navbar-collapse navbar-fixed-top" id="bs-example-navbar-collapse-1">
 	      <ul class="nav navbar-nav navbar-right">
 					<li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-	        <li><a href="#story">Story</a></li>
-	        <li><a href="#">Link</a></li>
-					<li><a href="#">Link</a></li>
-					<li><a href="#">Link</a></li>
+	        <li><a class="smooth-scroll" href="#story">Story</a></li>
+	        <li><a class="smooth-scroll" href="#review">Review</a></li>
+					<li><a class="smooth-scroll" href="#menu">Menu</a></li>
+					<li><a class="smooth-scroll" href="#contact">Contact</a></li>
 	      </ul>
     </div><!-- /.navbar-collapse -->
 
@@ -79,10 +79,212 @@
 		  </a>
 		</div> <!--END CAROUSEL -->
 			<div id="story">
-			</div> 
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-6">
+								<h1 class="story-h1">Our Story</h1>
+								<h2>On Man. One Dream.</h2>
+							</div>
+							<div class="col-sm-6">
+								<h1 class="year">1989</h1>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam doloribus eius nostrum, adipisci possimus alias accusamus. Quaerat quod ipsa et, asperiores magni soluta harum. Nemo atque, labore dolores facilis debitis.
+								</p>
+
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam doloribus eius nostrum, adipisci possimus alias accusamus. Quaerat quod ipsa et, asperiores magni soluta harum. Nemo atque, labore dolores facilis debitis.
+								</p>
+
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam doloribus eius nostrum, adipisci possimus alias accusamus. Quaerat quod ipsa et, asperiores magni soluta harum. Nemo atque, labore dolores facilis debitis.
+								</p>
+
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam doloribus eius nostrum, adipisci possimus alias accusamus. Quaerat quod ipsa et, asperiores magni soluta harum. Nemo atque, labore dolores facilis debitis.
+								</p>
+
+							</div>
+					</div>
+			</div>
 	</div> <!-- END CONTAINER FLUID -->
+
+	<div id="review">
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2">
+				<div class="review-text">
+					<h1>Fresno Bee</h1>
+					<p>The freshest and tastiest ingredients come together to make some of the best food I have ever eaten. You can really taste the central valley in every bite.</p>
+				</div>
+			</div>
+		</div>
+	</div> <!--END REV SECTION -->
+
+	<div id="menu">
+		<div class="container">
+			<h1 class="menu-h1">
+				Menu
+			</h1>
+			<div class="row">
+				<div class="col-sm-12" id="tab-section">
+					<!-- Nav tabs -->
+				  <ul class="nav nav-tabs nav-justified" role="tablist">
+				    <li role="presentation" class="active">
+							<a href="#appetizers" aria-controls="appetizers" role="tab" data-toggle="tab">Appetizers</a>
+						</li>
+				    <li role="presentation">
+							<a href="#lunch" aria-controls="lunch" role="tab" data-toggle="tab">Lunch</a>
+						</li>
+				    <li role="presentation">
+							<a href="#dinner" aria-controls="dinner" role="tab" data-toggle="tab">Dinner</a>
+						</li>
+				    <li role="presentation">
+							<a href="#dessert" aria-controls="dessert" role="tab" data-toggle="tab">Dessert</a>
+						</li>
+				  </ul>
+					<!-- Start Tab panes -->
+					<div class="tab-content">
+						<div role="tabpanel" class="tab-pane active" id="appetizers">
+							<div class="row">
+								<div class="col-sm-3">
+									<img src="img/dip.jpg" alt="" class="thumbnail img-responsive">
+									<h3 class="app-heading text-center">Appetizer 1</h3>
+									<p class="app-paragraph">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+									</p>
+								</div>
+								<div class="col-sm-3">
+									<img src="img/eggplant.jpg" alt="" class="thumbnail img-responsive">
+									<h3 class="app-heading text-center">Appetizer 2</h3>
+									<p class="app-paragraph">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+									</p>
+								</div>
+								<div class="col-sm-3">
+									<img src="img/meat.jpg" alt="" class="thumbnail img-responsive">
+									<h3 class="app-heading text-center">Appetizer 3</h3>
+									<p class="app-paragraph">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+									</p>
+								</div>
+								<div class="col-sm-3">
+									<img src="img/bruschetta.jpg" alt="" class="thumbnail img-responsive">
+									<h3 class="app-heading text-center">Appetizer 4</h3>
+									<p class="app-paragraph">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div role="tabpanel" class="tab-pane" id="lunch">
+							<div class="row">
+								<div class="col-sm-3">
+								</div>
+								<div class="col-sm-3">
+								</div>
+								<div class="col-sm-3">
+								</div>
+								<div class="col-sm-3">
+								</div>
+							</div>
+						</div>
+
+						<div role="tabpanel" class="tab-pane" id="dinner">
+							<div class="row">
+								<div class="col-sm-3">
+								</div>
+								<div class="col-sm-3">
+								</div>
+								<div class="col-sm-3">
+								</div>
+								<div class="col-sm-3">
+								</div>
+							</div>
+						</div>
+
+						<div role="tabpanel" class="tab-pane" id="dessert">
+							<div class="row">
+								<div class="col-sm-3">
+								</div>
+								<div class="col-sm-3">
+								</div>
+								<div class="col-sm-3">
+								</div>
+								<div class="col-sm-3">
+								</div>
+							</div>
+						</div>
+					</div>   <!-- End Tab panes -->
+				</div>
+			</div><!-- END ROW -->
+		</div><!-- END CONTAINER -->
+
+
+
+	</div><!-- END MENU -->
+
+	<div id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h1 class="contact-h1">Contact Us
+					</h1>
+					<p class="contact-p">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+					<!-- Do not change the code! -->
+					<a id="foxyform_embed_link_762805" href="http://www.foxyform.com/">foxyform</a>
+					<script type="text/javascript">
+					(function(d, t){
+					   var g = d.createElement(t),
+					       s = d.getElementsByTagName(t)[0];
+					   g.src = "http://www.foxyform.com/js.php?id=762805&sec_hash=216a87cb6da&width=350px";
+					   s.parentNode.insertBefore(g, s);
+					}(document, "script"));
+					</script>
+					<!-- Do not change the code! -->
+				</div>
+				<div class="col-sm-6">
+					<address>
+				  <strong>RESTAURANTE</strong><br>
+				  700 Van Ness<br>
+				  Fresno, CA 93721<br>
+				  <abbr title="Phone">P:</abbr> (123) 456-7890
+				</address>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.6042401462996!2d-119.78796568461587!3d36.732064979962686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80945e26d4f5cb43%3A0xe56ff4273de1051!2s700+Van+Ness+Ave%2C+Fresno%2C+CA+93721!5e0!3m2!1sen!2sus!4v1458702660980" width="510" height="225" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
 	<!-- javascript	 -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script>
+        $(function() {
+            $('a[href*=#]:not([href=#])').click(function() {
+                    if( $(this).attr("class")=="smooth-scroll") {
+                    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                            var target = $(this.hash);
+                            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                            if (target.length) {
+                                    $('html,body').animate({
+                                            scrollTop: target.offset().top
+                                    }, 1000);
+                                    return false;
+                            }
+                    }
+                }
+            });
+        });
+    </script>
+	<script>
+	    $(".navbar a").on("click", function(){
+	     $(".navbar-nav").find(".active").removeClass("active");
+	     $(this).parent().addClass("active");
+	    });
+	</script>
 </body>
 </html>
